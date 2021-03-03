@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Insertar datos</title>
+</head>
+<body>
+	<form action="Qinserta.php" method="POST">                    <!formulario que envia la informacion al archivo Qinserta.php>
+		Nombre: <input type="text" name="txtnombre"> <br/>
+        Apellido: <input type="text" name="txtapellido"> <br/>
+        Correo: <input type="text" name="txtcorreo"> <br/>
+        <br/>
+        <br/>
+        <input type="submit" value="Insertar" name="btnInsertar">  <!Boton de insertar informacion>
+        <input type="reset" value="Borrar información">            <!Boton de borrar informacion>
+    </form>
+</body>
+</html>
